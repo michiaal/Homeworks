@@ -1,0 +1,32 @@
+.box-light{
+width:100px;
+height:362px;
+margin-top:28px;
+margin-left:66px;
+border: 4px solid rgba(246, 191, 11, 0.333) ;
+}
+.box-light-red{
+    width: 100%;
+    height:100px;
+    top:28px; 
+    background-color: #FF0000; 
+}
+.box-light-green{
+    width:100%;
+    height:100px;
+    margin-top:28px; 
+    background-color: #00FF00; 
+} 
+.box-light-blue{
+    width:100%;
+    height:100px;
+    margin-top:28px; 
+    background-color:  #0000FF; 
+}
+.box-light-circle{
+    width:100%;
+    height:100px;
+    margin-top: 28px;
+    background-color: #C3C3C3;
+    border-radius: 50%;
+}
