@@ -1,0 +1,45 @@
+/** global size */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--c-blue);
+  font-family: var(--f-base);
+  font-size: var(--f-base);
+  color: var(--c-white);
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+
+}
+
+ul {
+  list-style-type: none;
+} 
+h1
+h2
+h3
+h4
+h5
+h6 {
+  margin-bottom: 0;
+}
+
+
+.wrapper {
+  max-width: 1470px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+}
+

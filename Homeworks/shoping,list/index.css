@@ -1,84 +1,78 @@
 /* Global */
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 /*MAin*/
 body {
-    background-color:#3B3F45 ;
-    font-size: 16px;
-    color: white;
-    min-height: 100vh;
+  background-color: #3b3f45;
+  font-size: 16px;
+  color: white;
+  min-height: 100vh;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /*Header*/
 .header {
-padding-top: 20px;
-padding-bottom: 20px;
-background-color: #4a4f56;
-text-align: center;
-color: #FF8984;
-margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #4a4f56;
+  text-align: center;
+  color: #ff8984;
+  margin-bottom: 20px;
 }
 
 .header-title {
-    font-size: 24px;
-    margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
-
 
 /* list */
 .list {
-    max-width: 530px;
-    margin: 0 auto;
+  max-width: 530px;
+  margin: 0 auto;
 }
 
-
 .list-lable {
-    display: flex;
-    padding: 10px;
-    gap: 10px;
-    align-items: center;
-    border-top: 2px solid transparent;
-    border-bottom: 2px solid transparent;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
 }
 
 .list-lable:hover {
-    border-color: white;
+  border-color: white;
 }
 
-
 .list-item {
-    background-color: #88839e;
+  background-color: #88839e;
 }
 
 .list-item:nth-child(2n) {
-    background-color: #6f6f7c;
+  background-color: #6f6f7c;
 }
 
 .list-checkbox:checked + .list-content {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 /*footer*/
-.footer{
-    margin: 0 auto;
-    padding: 8px;
-    margin-top: 40px;
-    background-color: #4a4f56;
-    text-align: center;
-    color: #FF8984;
-    max-width: 530px
-    
-    }
+.footer {
+  margin: 0 auto;
+  padding: 8px;
+  margin-top: 40px;
+  background-color: #4a4f56;
+  text-align: center;
+  color: #ff8984;
+  max-width: 530px;
+}
 
-    .footer-text {
-        font-size: 18px;
-   }
-
+.footer-text {
+  font-size: 18px;
+}

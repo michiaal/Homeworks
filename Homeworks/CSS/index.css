@@ -1,38 +1,32 @@
-
 html {
-    font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .cv {
-    color:brown;
-    font-weight: 100;
-    font-size: medium;
+  color: brown;
+  font-weight: 100;
+  font-size: medium;
 }
 
 .header {
-    text-align: center;
-    font-size: medium;
+  text-align: center;
+  font-size: medium;
 }
-    
+
 img {
-    width: auto;
-    height: 100%;
-}
-
-
-.text {
-font-weight: 500;
-text-align: center;
+  width: auto;
+  height: 100%;
 }
 
 .text {
-    text-align: center;
-    margin-top: 1%;
+  font-weight: 500;
+  text-align: center;
+}
 
+.text {
+  text-align: center;
+  margin-top: 1%;
 }
 .footer {
-    text-align: center;
-    
+  text-align: center;
 }
-
-
