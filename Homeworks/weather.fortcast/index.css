@@ -22,6 +22,7 @@
   margin-bottom: 35px;
 }
 
+
 .forecast-wrapper-table-row {
   border-bottom: 2px solid var(--c-white);
 }
@@ -29,11 +30,22 @@
 .forecast-wrapper-table-list {
   display: flex;
 }
+
+
+
+
+
 /*--city--*/
 .lisbon {
   width: 50%;
   background-color: #70b8db;
   border-right: 2px solid var(--c-white);
+}
+
+.lisbon:hover {
+border: 5px dotted #3a7999;
+	color: #000000;
+  transition: all 0.6s ease 0s;
 }
 
 .city-name {
@@ -53,10 +65,22 @@
   border-right: 2px solid var(--c-white);
 }
 
+.paris:hover {
+  border: 5px dotted #3a7999;
+	color: #000000;
+  transition: all 0.6s ease 0s;
+}
+
 .belgrad {
   width: 25%;
   background-color: #996699;
   border-right: 2px solid var(--c-white);
+}
+
+.belgrad:hover {
+  border: 5px dotted #3a7999;
+	color: #000000;
+  transition: all 0.6s ease 0s;
 }
 
 .venice {
@@ -65,10 +89,20 @@
   border-right: 2px solid var(--c-white);
 }
 
+.venice:hover {
+  border: 5px dotted #3a7999;
+	color: #000000;
+  transition: all 0.6s ease 0s;
+}
 .tel-aviv {
   width: 25%;
   background-color: #e2674a;
   border-right: 2px solid var(--c-white);
+}
+.tel-aviv:hover {
+  border: 5px dotted #3a7999;
+	color: #000000;
+  transition: all 0.6s ease 0s;
 }
 
 .cair {
@@ -76,10 +110,20 @@
   background-color: #ffcc66;
   border-right: 2px solid var(--c-white);
 }
+.cair:hover {
+  border: 5px dotted #3a7999;
+	color: #000000;
+  transition: all 0.6s ease 0s;
+}
 .new-york {
   width: 25%;
   background-color: #99cc99;
   border-right: 2px solid var(--c-white);
+}
+.new-york:hover {
+  border: 5px dotted #3a7999;
+	color: #000000;
+  transition: all 0.6s ease 0s;
 }
 
 .new-dehli {
@@ -87,11 +131,21 @@
   background-color: #669999;
   border-right: 2px solid var(--c-white);
 }
+.new-dehli:hover {
+  border: 5px dotted #3a7999;
+	color: #000000;
+  transition: all 0.6s ease 0s;
+}
 
 .san-francisco {
   width: 50%;
   background-color: #cc6699;
   border-right: 2px solid var(--c-white);
+}
+.san-francisco:hover {
+  border: 5px dotted #3a7999;
+	color: #000000;
+  transition: all 0.6s ease 0s;
 }
 
 .tokyo {
@@ -99,12 +153,24 @@
   background-color: #339966;
   border-right: 2px solid var(--c-white);
 }
+.tokyo:hover {
+  border: 5px dotted #3a7999;
+	color: #000000;
+  transition: all 0.6s ease 0s;
+}
+
 
 .sydney {
   width: 100%;
   background-color: #666699;
   border-right: 2px solid var(--c-white);
 }
+.sydney:hover {
+  border: 5px dotted #3a7999;
+	color: #000000;
+  transition: all 0.6s ease 0s;
+}
+
 .text {
   margin-bottom: 120px;
 }
