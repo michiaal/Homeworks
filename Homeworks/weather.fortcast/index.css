@@ -20,6 +20,7 @@
   border: 2px solid var(--c-white);
   border-bottom: none;
   margin-bottom: 35px;
+
 }
 
 
@@ -29,21 +30,6 @@
 
 .forecast-wrapper-table-list {
   display: flex;
-}
-
-
-
-/*--city--*/
-.lisbon {
-  width: 50%;
-  background-color: #70b8db;
-  border-right: 2px solid var(--c-white);
-}
-
-.lisbon:hover {
-  text-shadow: 0px 0px 6px rgb(189, 6, 6);
-  box-shadow: 0px 5px 60px -20px rgba(0, 0, 0, 0.57);
-  transition: all 0.4s ease 0s;
 }
 
 .city-name {
@@ -57,104 +43,143 @@
   padding-bottom: 25px;
 }
 
+/*--city--*/
+.lisbon {
+  width: 50%;
+  background-color: #70b8db;
+  border-right: 2px solid var(--c-white);
+  opacity: 0.8;
+}
+
+
+.lisbon:hover {
+  text-shadow: 0px 0px 6px rgb(189, 6, 6);
+  box-shadow: 0px 5px 60px -20px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+  opacity: 1;
+}
+
+
+
 .paris {
   width: 25%;
   background-color: #33cccc;
   border-right: 2px solid var(--c-white);
+  opacity: 0.8;
 }
 
 .paris:hover {
   text-shadow: 0px 0px 6px rgb(189, 6, 6);
   box-shadow: 0px 5px 60px -20px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
+  opacity: 1;
 }
 
 .belgrad {
   width: 25%;
   background-color: #996699;
   border-right: 2px solid var(--c-white);
+  opacity: 0.8;
 }
 
 .belgrad:hover {
   text-shadow: 0px 0px 6px rgb(189, 6, 6);
   box-shadow: 0px 5px 60px -20px rgba(0, 0, 0, 0.57);
-  transition: all 0.4s ease 0s;;
+  transition: all 0.4s ease 0s;
+  opacity: 1;
 }
 
 .venice {
   width: 25%;
   background-color: #c24747;
   border-right: 2px solid var(--c-white);
+  opacity: 0.8;
 }
 
 .venice:hover {
   text-shadow: 0px 0px 6px rgb(189, 6, 6);
   box-shadow: 0px 5px 60px -20px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
+  opacity: 1;
 }
 .tel-aviv {
   width: 25%;
   background-color: #e2674a;
   border-right: 2px solid var(--c-white);
+  opacity: 0.8;
 }
 .tel-aviv:hover {
   text-shadow: 0px 0px 6px rgb(189, 6, 6);
   box-shadow: 0px 5px 60px -20px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
+  opacity: 1;
 }
 
 .cair {
   width: 25%;
   background-color: #ffcc66;
   border-right: 2px solid var(--c-white);
+  opacity: 0.8;
 }
 .cair:hover {
   text-shadow: 0px 0px 6px rgb(189, 6, 6);
   box-shadow: 0px 5px 60px -20px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
+  opacity: 1;
 }
 .new-york {
   width: 25%;
   background-color: #99cc99;
   border-right: 2px solid var(--c-white);
+  opacity: 0.8;
 }
 .new-york:hover {
   text-shadow: 0px 0px 6px rgb(189, 6, 6);
   box-shadow: 0px 5px 60px -20px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
+  opacity: 1;
 }
 
 .new-dehli {
   width: 25%;
   background-color: #669999;
   border-right: 2px solid var(--c-white);
+  opacity: 0.8;
 }
 .new-dehli:hover {
   text-shadow: 0px 0px 6px rgb(189, 6, 6);
   box-shadow: 0px 5px 60px -20px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
+  opacity: 1;
 }
 
 .san-francisco {
   width: 50%;
   background-color: #cc6699;
   border-right: 2px solid var(--c-white);
+  opacity: 0.8;
 }
 .san-francisco:hover {
   text-shadow: 0px 0px 6px rgb(189, 6, 6);
   box-shadow: 0px 5px 60px -20px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
+  opacity: 1;
 }
 
 .tokyo {
   width: 25%;
   background-color: #339966;
   border-right: 2px solid var(--c-white);
+  opacity: 0.8;
 }
+
+
 .tokyo:hover {
   text-shadow: 0px 0px 6px rgb(189, 6, 6);
   box-shadow: 0px 5px 60px -20px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
+  opacity: 1;
+  
 }
 
 
@@ -162,11 +187,13 @@
   width: 100%;
   background-color: #666699;
   border-right: 2px solid var(--c-white);
+  opacity: 0.8;
 }
 .sydney:hover {
   text-shadow: 0px 0px 6px rgb(189, 6, 6);
   box-shadow: 0px 5px 60px -20px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
+  opacity: 1;
 }
 
 .text {
