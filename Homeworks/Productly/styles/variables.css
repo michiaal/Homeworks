@@ -5,11 +5,14 @@
   --c-black-1: #544837;
   --c-primary: #ff9900;
   --c-blue: #bcd0e5;
+
   /* * Fonts */
-  --f-base: 'Montserrat', sans-serif;
-  --f-poppins: 'Poppins', sans-serif;
+  --f-base: "Montserrat", sans-serif;
+  --f-poppins: "Poppins", sans-serif;
   /* * Font sizes */
   --fs-base: 16px;
+  /* * Font colors */
+  --fc-gray: #544837;
   /* * Transitions */
   --t-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   /* * Height */

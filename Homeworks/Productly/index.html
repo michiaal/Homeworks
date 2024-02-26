@@ -23,6 +23,42 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
+    <!--ICONS-->
+    <svg
+      aria-hidden="true"
+      style="position: absolute; width: 0; height: 0; overflow: hidden"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <defs>
+        <symbol id="icon-second-test" viewBox="0 0 32 32">
+          <path
+            d="M27.429 2.286c0 3.107-0.637 5.857-1.911 8.25-1.262 2.381-2.845 4.202-4.75 5.464 1.905 1.262 3.488 3.089 4.75 5.482 1.274 2.381 1.911 5.125 1.911 8.232h1.714c0.167 0 0.304 0.053 0.411 0.161s0.161 0.244 0.161 0.411v1.143c0 0.167-0.054 0.304-0.161 0.411s-0.244 0.161-0.411 0.161h-26.286c-0.167 0-0.304-0.054-0.411-0.161s-0.161-0.244-0.161-0.411v-1.143c0-0.167 0.054-0.304 0.161-0.411s0.244-0.161 0.411-0.161h1.714c0-3.107 0.631-5.851 1.893-8.232 1.274-2.393 2.863-4.22 4.768-5.482-1.905-1.262-3.494-3.083-4.768-5.464-1.262-2.393-1.893-5.143-1.893-8.25h-1.714c-0.167 0-0.304-0.054-0.411-0.161s-0.161-0.244-0.161-0.411v-1.143c0-0.167 0.054-0.304 0.161-0.411s0.244-0.161 0.411-0.161h26.286c0.167 0 0.304 0.054 0.411 0.161s0.161 0.244 0.161 0.411v1.143c0 0.167-0.054 0.304-0.161 0.411s-0.244 0.161-0.411 0.161h-1.714zM25.143 2.286h-18.286c0 2.452 0.506 4.738 1.518 6.857h15.25c1.012-2.119 1.518-4.405 1.518-6.857zM24.125 24c-0.643-1.679-1.512-3.113-2.607-4.304-1.083-1.202-2.238-2.054-3.464-2.554h-4.107c-1.226 0.5-2.387 1.351-3.482 2.554-1.083 1.191-1.946 2.625-2.589 4.304h16.25z"
+          ></path>
+        </symbol>
+        <symbol id="icon-pref-test" viewBox="0 0 35 32">
+          <path
+            d="M18.359 29.649c-0.234 0.235-0.521 0.352-0.859 0.352s-0.625-0.117-0.859-0.352l-12.188-11.758c-0.13-0.104-0.313-0.273-0.547-0.508-0.221-0.234-0.579-0.658-1.074-1.27-0.495-0.625-0.938-1.263-1.328-1.914s-0.742-1.439-1.055-2.363c-0.299-0.925-0.449-1.823-0.449-2.695 0-2.865 0.827-5.104 2.481-6.719s3.939-2.422 6.856-2.422c0.807 0 1.628 0.143 2.461 0.43 0.846 0.273 1.628 0.651 2.344 1.133 0.729 0.469 1.354 0.911 1.875 1.328s1.016 0.859 1.484 1.328c0.469-0.469 0.964-0.911 1.484-1.328s1.139-0.859 1.855-1.328c0.729-0.482 1.511-0.859 2.344-1.133 0.846-0.286 1.673-0.43 2.48-0.43 2.917 0 5.202 0.807 6.856 2.422s2.48 3.854 2.48 6.719c0 2.878-1.491 5.807-4.473 8.789l-12.168 11.719z"
+          ></path>
+        </symbol>
+        <symbol id="icon-surveys" viewBox="0 0 32 32">
+          <path
+            d="M17.7 12.933v-1.967c0-0.467-0.167-0.867-0.5-1.2s-0.733-0.5-1.2-0.5c-0.467 0-0.867 0.167-1.2 0.5s-0.5 0.733-0.5 1.2v10.2c0 1.944-0.7 3.605-2.1 4.983s-3.083 2.067-5.050 2.067c-1.978 0-3.667-0.695-5.067-2.083-1.389-1.4-2.083-3.089-2.083-5.067v-4.433h5.467v4.367c0 0.478 0.167 0.883 0.5 1.217 0.333 0.322 0.733 0.483 1.2 0.483s0.867-0.161 1.2-0.483c0.333-0.333 0.5-0.739 0.5-1.217v-10.333c0-1.9 0.7-3.522 2.1-4.867 1.411-1.344 3.089-2.017 5.033-2.017 1.956 0 3.633 0.678 5.033 2.033s2.1 2.989 2.1 4.9v2.267l-3.25 0.967-2.183-1.017zM26.533 16.633h5.467v4.433c0 1.978-0.7 3.667-2.1 5.067-1.389 1.389-3.072 2.083-5.050 2.083-1.967 0-3.65-0.689-5.050-2.067-1.4-1.389-2.1-3.061-2.1-5.017v-4.467l2.183 1.017 3.25-0.967v4.5c0 0.467 0.166 0.866 0.5 1.2 0.333 0.322 0.733 0.483 1.2 0.483s0.867-0.161 1.2-0.483c0.333-0.333 0.5-0.733 0.5-1.2v-4.583z"
+          ></path>
+        </symbol>
+        <symbol id="icon-click" viewBox="0 0 32 32">
+          <path
+            d="M25.782 18.584c0.363 0.352 0.445 0.756 0.246 1.213-0.199 0.469-0.545 0.703-1.037 0.703h-6.715l3.533 8.367c0.117 0.293 0.117 0.58 0 0.861s-0.316 0.486-0.598 0.615l-3.111 1.318c-0.293 0.117-0.58 0.117-0.861 0s-0.486-0.316-0.615-0.598l-3.357-7.945-5.484 5.484c-0.223 0.223-0.486 0.334-0.791 0.334-0.141 0-0.281-0.029-0.422-0.088-0.469-0.199-0.703-0.545-0.703-1.037v-26.437c0-0.492 0.234-0.838 0.703-1.037 0.141-0.059 0.281-0.088 0.422-0.088 0.316 0 0.58 0.111 0.791 0.334l18 18z"
+          ></path>
+        </symbol>
+        <symbol id="icon-tick" viewBox="0 0 43 32">
+          <path
+            d="M41.878 1.706c-0.83-0.792-2.175-0.792-3.005 0l-15.673 14.953c-5.477 5.226-14.094 5.226-19.572 0-0.83-0.792-2.175-0.792-3.005 0s-0.83 2.075 0 2.867l11.289 10.77c0.83 0.792 2.176 0.791 3.005 0l26.961-25.722c0.83-0.792 0.83-2.075 0-2.867z"
+          ></path>
+        </symbol>
+      </defs>
+    </svg>
     <div class="app">
       <!-- * Header -->
       <header class="header">
@@ -62,25 +98,262 @@
       </header>
 
       <!-- * Banner -->
-      <main class="banner">
-        <div class="wrapper banner-wrapper">
-          <!-- Content -->
-          <div class="banner-content">
-            <h1>The Design Thinking superpowers</h1>
-            <p class="banner-text">
-              Tools, tutorials, design and innovation experts, all in one place!
-              The most intuitive way to imagine your next user experience.
-            </p>
-            <button type="button" class="button button--big banner-button">
-              <span>Get started</span>
-            </button>
+      <main>
+        <div class="banner">
+          <div class="wrapper banner-wrapper">
+            <!-- Content -->
+            <div class="banner-content">
+              <h1>The Design Thinking superpowers</h1>
+              <p class="banner-text">
+                Tools, tutorials, design and innovation experts, all in one
+                place! The most intuitive way to imagine your next user
+                experience.
+              </p>
+              <button type="button" class="button button--big banner-button">
+                <span>Get started</span>
+              </button>
+            </div>
+            <!-- Image block -->
+            <div class="banner-image-block">
+              <img src="./assets/banner.svg" alt="banner-image" />
+            </div>
           </div>
-          <!-- Image block -->
-          <div class="banner-image-block">
-            <img src="./assets/banner.svg" alt="banner-image" />
+        </div>
+        <!-- * Design Professionals * -->
+        <div class="section">
+          <!-- * tools content *-->
+          <div class="wrapper tools-wrapper">
+            <!--design section title-->
+            <h2 class="header-center">
+              We design tools to unveil your superpowers
+            </h2>
+            <!-- * design section items *-->
+            <div class="tools-items">
+              <div class="tools-item">
+                <div class="first-item icon">
+                  <svg class="icon"><use xlink:href="#icon-click"></use></svg>
+                </div>
+                <h4 class="tools-items-title">First click tests</h4>
+                <p class="simple-text">
+                  While most people enjoy casino gambling
+                </p>
+              </div>
+              <!--tools-item-->
+              <div class="tools-item">
+                <div class="second-item icon">
+                  <svg class="icon icon-surveys">
+                    <use xlink:href="#icon-surveys"></use>
+                  </svg>
+                </div>
+                <h4 class="tools-items-title">First click tests</h4>
+                <p class="simple-text">
+                  While most people enjoy casino gambling
+                </p>
+              </div>
+
+              <div class="tools-item">
+                <div class="third-item icon">
+                  <svg class="icon icon-pref-test">
+                    <use xlink:href="#icon-pref-test"></use>
+                  </svg>
+                </div>
+                <h4 class="tools-items-title">First click tests</h4>
+                <p class="simple-text">
+                  While most people enjoy casino gambling
+                </p>
+              </div>
+
+              <div class="tools-item">
+                <div class="fourth-item icon">
+                  <svg class="icon icon-second-test">
+                    <use xlink:href="#icon-second-test"></use>
+                  </svg>
+                </div>
+                <h4 class="tools-items-title">First click tests</h4>
+                <p class="simple-text">
+                  While most people enjoy casino gambling
+                </p>
+              </div>
+            </div>
+            <!--bottom-->
+            <button type="button" class="button sign-up-now-btn">
+              <span>
+                <b>Sign up Now</b>
+              </span>
+            </button>
+            <!--background-->
+
+            <img class="tools-bg" src="./assets/bg.png" alt="background" />
+          </div>
+        </div>
+        <!--banner section-->
+        <div class="banner">
+          <div class="wrapper banner-wrapper">
+            <!--text section-->
+            <div class="banner-content">
+              <span class="simple-text">Effortless Validation for</span>
+              <h2 class="banner-content-title">Design Professionals</h2>
+              <p class="simple-text">
+                The Myspace page defines the individual, his or her
+                characteristics, traits, personal choices and the overall
+                personality of the person.
+              </p>
+              <!-- * banner section list *-->
+              <ul class="banner-list">
+                <li class="banner-item">
+                  <p class="subtitle">Accessory makers</p>
+                  <p class="benefits-section-item-text">
+                    While most people enjoy casino gambling, sports betting,
+                    lottery and bingo playing for the fun
+                  </p>
+                </li>
+                <li class="banner-item">
+                  <p class="subtitle">Alterationists</p>
+                  <p class="benefits-section-item-text">
+                    If you are looking for a new way to promote your business
+                    that won’t cost you more money,
+                  </p>
+                </li>
+                <li class="banner-item">
+                  <p class="subtitle">Custom Design designers</p>
+                  <p class="subtitle-section-item-text">
+                    If you are looking for a new way to promote your business
+                    that won’t cost you more money,
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <!-- * section image *-->
+            <div class="banner-image-block">
+              <img src="./assets/benefits.svg" alt="benefits-img" />
+            </div>
+          </div>
+        </div>
+        <!-- * Producr Managers *-->
+        <div class="banner">
+          <div class="wrapper banner-wrapper">
+            <!-- * Image *-->
+            <div class="banner-image-block">
+              <img src="./assets/Product-Managers.svg" alt="Product-Managers" />
+            </div>
+            <!-- * content *-->
+            <div class="banner-content">
+              <p class="simple-text">Easier decision making for</p>
+              <h2 class="banner-content-title">Product Managers</h2>
+              <p class="simple-text">
+                The Myspace page defines the individual, his or her
+                characteristics, traits, personal choices and the overall
+                personality of the person.
+              </p>
+              <!-- * list content *-->
+              <ul class="benefits-list">
+                <li class="benefits-list-item">
+                  <div class="benefits-list-item-wrapper">
+                    <div class="point icon">
+                      <svg class="icon icon-tick">
+                        <use xlink:href="#icon-tick"></use>
+                      </svg>
+                    </div>
+                    <p class="simple-text-benefits">
+                      Never worry about overpaying for your energy bill again.
+                    </p>
+                  </div>
+                </li>
+                <li class="benefits-list-item">
+                  <div class="benefits-list-item-wrapper">
+                    <div class="point icon">
+                      <svg class="icon icon-tick">
+                        <use xlink:href="#icon-tick"></use>
+                      </svg>
+                    </div>
+                    <p class="simple-text-benefits">
+                      Never worry about overpaying for your energy bill again.
+                    </p>
+                  </div>
+                </li>
+                <li class="benefits-list-item">
+                  <div class="benefits-list-item-wrapper">
+                    <div class="point icon">
+                      <svg class="icon icon-tick">
+                        <use xlink:href="#icon-tick"></use>
+                      </svg>
+                    </div>
+                    <p class="simple-text-benefits">
+                      Never worry about overpaying for your energy bill again.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </main>
+      <!-- * footer *-->
+      <footer class="footer">
+        <div class="wrapper footer-wrapper">
+          <!-- * footer nav*-->
+          <nav class="footer-nav">
+            <!-- * Logo *-->
+            <div class="logo">
+              <a class="logo" href="/">
+                <img src="./assets/logo.png" alt="logo" />
+              </a>
+            </div>
+            <!-- * Quick Links *-->
+            <div class="footer-links">
+              <p class="legal-stuff">Quick Links</p>
+              <ul class="footer-links-list">
+                <li class="footer-links-item">
+                  <a class="footer-link" href="#">About Us</a>
+                </li>
+                <li class="footer-links-item">
+                  <a class="footer-link" href="#">Blog</a>
+                </li>
+                <li class="footer-links-item">
+                  <a class="footer-link" href="#">Contact</a>
+                </li>
+                <li class="footer-links-item">
+                  <a class="footer-link" href="#">FAQ</a>
+                </li>
+              </ul>
+            </div>
+            <!-- * Legal Stuff *-->
+            <div class="footer-links">
+              <p class="legal-stuff">Legal Stuff</p>
+              <ul class="footer-links-list">
+                <li class="footer-links-item">
+                  <a class="footer-link" href="#">Disclaimer</a>
+                </li>
+                <li class="footer-links-item">
+                  <a class="footer-link" href="#">Financing</a>
+                </li>
+                <li class="footer-links-item">
+                  <a class="footer-link" href="#">Privacy Policy</a>
+                </li>
+                <li class="footer-links-item">
+                  <a class="footer-link" href="#">Terms of Service</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="footer-contact">
+            <span class="footer-text"
+              >Knowing you're always on the best energy deal
+            </span>
+            <input
+              type="tel"
+              class="input"
+              placeholder="Enter your phone Number"
+            />
+            <!-- * fotter botton *-->
+            <button type="button" class="button sign-up-now-btn">
+              <span>
+                <b>Sign up Now</b>
+              </span>
+            </button>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
