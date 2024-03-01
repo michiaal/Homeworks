@@ -12,6 +12,10 @@
   color: var(--c-white);
 }
 
+.overflow {
+  overflow: hidden;
+}
+
 body {
   background-color: var(--c-white);
   font-family: var(--f-base);

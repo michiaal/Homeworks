@@ -23,6 +23,7 @@
 .logo {
   height: fit-content;
   max-width: 200px;
+  min-width: 150px;
   display: flex;
   width: 100%;
 }
@@ -53,6 +54,7 @@
   cursor: pointer;
   display: flex;
   height: 45px;
+  white-space: nowrap;
 }
 
 .button:hover {
