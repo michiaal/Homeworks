@@ -1,0 +1,43 @@
+.button {
+  background-color: var(--c-primary);
+  border: none;
+  color: var(--c-white);
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  margin-top: 30px;
+  
+
+  &-text {
+    font-family: --f-base;
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
+
+.down-bottom {
+  border: none;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  color: var(--c-bombay);
+  background: transparent;
+  margin-left: 10px;
+
+
+}
+
+.down-button-text {
+  font-family: --f-base;
+  font-weight: 600;
+  font-size: 14px;
+}
+.vector {
+  width: 16px;
+  height: 16px;
+}

@@ -1,0 +1,28 @@
+.footer {
+  background-color: var(--c-dark-violet);
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+  &-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+
+  &-logo-name {
+    font-family: var(--f-title);
+    color: var(--c-white);
+    font-size: 35px;
+  }
+
+  &-media {
+    font-size: 20px;
+    color: var(--c-black);
+  }
+
+  &-media:hover {
+    color: var(--c-green);
+    transition: all 0.2s ease-in-out;
+  }
+}

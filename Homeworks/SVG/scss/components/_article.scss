@@ -1,0 +1,37 @@
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+
+  &-base {
+    max-width: 350px;
+  }
+
+  &-internal {
+    border: 1px solid var(--c-dark-grey);
+    border-radius: 10px;
+    padding:60px;
+  }
+
+  &-internal:hover {
+    border-color: var(--c-green);
+    transition: all 0.2s ease-in-out;
+  }
+
+  &-title {
+    font-family: var(--f-main);
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+  &-text {
+    font-family: var(--f-main);
+    line-height: 20px;
+    padding-bottom: 40px;
+  }
+
+  &-link {
+    color: var(--c-green);
+    font-family: var(--f-main);
+    font-weight: 600;
+  }
+}

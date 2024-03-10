@@ -1,0 +1,27 @@
+.banner {
+
+  
+  &-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    width: 100%;
+    background-color: var(--c-baner);
+  }
+
+  &-text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    color: var(--c-white);
+    font-family: var(--f-anton);
+  }
+
+  &-bg {
+    position: absolute;
+    height: 100vh;
+
+  }
+}

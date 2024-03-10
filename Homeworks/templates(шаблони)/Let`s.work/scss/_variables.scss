@@ -1,0 +1,36 @@
+:root {
+  // * Colors
+  --c-primary: #fe390c;
+  --c-woodsmoke: #111214;
+  --c-woodsmoke-2: #0c0c0e;
+  --c-black: #000000;
+  --c-white: #fff;
+  --c-bombay: #a9a9aa;
+  --c-aluminium: #a7aab4;
+  --c-alabaster: #f7f7f7;
+  --c-porcelain: #f2f3f4;
+  --c-iron: #cacdd11a;
+  --c-iron-2: #dfe2e5;
+  --c-alto: #e0e0e0;
+  --c-baner:#111214;
+  // * Fonts
+
+  --f-base: "Montserrat", sans-serif;
+  --f-anton: "Anton", sans-serif;
+  --fs-base: 14px;
+
+  --bp-phone: 480px
+  --bp-tablet: 768px
+  --bp-desktop: 1024px
+  --bp-screen: 1200px
+  --bp-large: 1920px
+}
+
+
+$breakpoints: (
+  "phone": var(--bp-phone),
+  "tablet": var(--bp-tablet),
+  "desktop": var(--bp-desktop),
+  "screen": var(--bp-screen),
+  "large": var(--bp-large),
+);

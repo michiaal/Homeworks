@@ -98,3 +98,7 @@
   border-color: #bcd0e5;
   margin-bottom: 30px;
 }
+/* * Адаптивність на всю сторінку,щоб не скролилася  */
+.overflow {
+  overflow: hidden;
+}

@@ -1,0 +1,15 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--c-dark-grey);
+
+  &-logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &-logo-name {
+    font-family: var(--f-title);
+    font-size: 40px;
+  }
+}
