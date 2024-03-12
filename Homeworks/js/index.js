@@ -21,16 +21,30 @@
 //    const end = alert(` периметр квадрату ${question*x} `);
 
 
-//* 4 вправа
+// //* 4 вправа
 
- let faq = prompt ('Який радіус кола ?');
-  let degree = (faq ** 2);
-   const P = (3.14) ;
-    let action = (degree * P) ;
-     alert (action);
-     console.log(action);
+//  let faq = prompt ('Який радіус кола ?');
+//   let degree = (faq ** 2);
+//    const P = (3.14) ;
+//     let action = (degree * P) ;
+//      alert (action);
+//      console.log(action);
 
+// //* 5 вправа
+// let question1 = prompt ('Яка відстань ?') ;
+//  let question2 = prompt ('Скільки годин') ;
+//   let resultt = (question1/question2) ;
+//    alert(resultt);
+//     console.log(resultt);
 
+// //* 6 вправа 
+
+// const EURO = ('0.92')
+//  const DOLLAR = ('1')
+//   let value = prompt ('Скіко грошів ?')
+//    let sum = (value * EURO);
+//     alert(sum)
+//      console.log(sum)
 
 
 
