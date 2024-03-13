@@ -41,7 +41,7 @@ let question1 = prompt ('Яка відстань ?') ;
 
 const EURO = ('0.92')
  const DOLLAR = ('1')
-  let value = prompt ('Скіко грошів ?')
+  let value = prompt ('Яка сума ?')
    let sum = (value * EURO);
     alert(sum)
      console.log(sum)
