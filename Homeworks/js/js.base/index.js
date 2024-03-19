@@ -14,8 +14,8 @@ console.log("Вам:", YEAR - birthyear);
 //* 3 вправа
 
 let question = prompt("Яка довжина сторони квадрату");
-const x = 4;
-const end = alert(` периметр квадрату ${question * x} `);
+const number  = 4;
+const end = alert(` периметр квадрату ${question * number} `);
 
 //* 4 вправа
 
@@ -41,15 +41,6 @@ let value = prompt("Яка сума ?");
 let sum = value * EURO;
 alert(sum);
 console.log(sum);
-
-
-
-
-
-
-
-
-
 
 
 
