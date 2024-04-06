@@ -94,44 +94,78 @@
 // console.log(`Час подорожі: ${travelTime} `);
 // console.log(`Кількість палива: ${consumption} л.`);
 
-// //* Об'єкти ( Норма )
+// //* Функції ( мінімум )
 
-const time = {
-  seconds: 3,
-  minutes: 24,
-  hours: 47,
-  changeSeconds: function (userSeconds) {
-    this.seconds = (userSeconds % 60) + this.seconds;
-    if (this.seconds + userSeconds >= 60) {
-      this.minutes += Math.floor(userSeconds / 60);
-      if (this.seconds >= 60) {
-        this.seconds -= 60 * Math.floor(userSeconds / 60);
-      }
-    }
-  },
-  changeMinutes: function (userMinutes) {
-    this.minutes = (userMinutes % 60) + this.minutes;
-    if (this.minutes + userMinutes >= 60) {
-      this.hours += Math.floor(userMinutes / 60);
-      if (this.minutes >= 60) {
-        this.minutes -= 60 * Math.floor(userMinutes / 60);
-      }
-    }
-  },
-  changeHours: function (userHours) {
-    this.hours += userHours;
-  },
+// вправа 2
 
-  showTime: function () {
-    Object.keys(this).forEach((key) => {
-      if (typeof this[key] !== "function") {
-        console.log(`${key}: ${this[key]}`);
-      }
-    });
-  },
-};
+// function allArguments() {
+//   console.log(arguments.length);
+// }
+// allArguments();
+// export default allArguments;
 
-time.changeSeconds(10);
-time.changeMinutes(100);
-time.changeHours(11);
-time.showTime();
+
+
+// вправа 3
+
+// const numberCompare = (a, b) => {
+
+//   if (a > b) {
+//     console.log('-1');
+//   } else if (a < b) {
+//     console.log('+1');
+//   } else {
+//     console.log('0');
+//   }
+// };
+
+// numberCompare(7, 6);
+
+// вправа 4
+
+// function calcFactorial(userNumber) {
+//   if (isNaN(userNumber)) {
+//     throw new Error('Wrong data');
+//   } else if (userNumber !== 1) {
+//     return userNumber * calcFactorial(userNumber - 1);
+//   } else {
+//     return 1;
+//   }
+// }
+
+// console.log(calcFactorial(5));
+
+// // вправа 5
+
+// function oneNumber() {
+//   const firstNumber = Number(prompt('Введіть перше число'));
+//   const secondNumber = Number(prompt('Введіть друге число'));
+//   const thirdNumber = Number(prompt('Введіть третє число'));
+//   if (isNaN(firstNumber) || isNaN(secondNumber) || isNaN(thirdNumber)) {
+//     console.log('Будь ласка, введіть числа.');
+//     return;
+//   }
+//   const oneNumber = Number(`${firstNumber}${secondNumber}${thirdNumber}`);
+//   console.log(oneNumber);
+// }
+
+// oneNumber();
+
+
+// // вправа 1 ( норма )
+// function PerfectNumberCheck(number) {
+//   let sumDivisors = 0;
+
+//   for (let i = 1; i < number; i++) {
+//     if (number % i === 0) {
+//       sumDivisors += i;
+//     }
+//   }
+
+//   return number === sumDivisors;
+// }
+
+// console.log(PerfectNumberCheck(28));
+
+// export default checkPerfectNumber;
+
