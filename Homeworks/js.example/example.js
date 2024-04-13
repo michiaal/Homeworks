@@ -57,115 +57,76 @@
 // });
 // console.log(arr);
 
+//* Цикли
+// While
 
-
-// //* Об'єкти ( Мінімум )
-
-// let car = {
-//   producer: "Honda",
-//   model: "Acord",
-//   yearOfProduction: 2005,
-//   averageSpeed: 100,
-//   tankVolume: 50,
-//   fuelConsumption: 10,
-//   driver1: "Mark",
-//   driver2: "Roma",
-//   driver3: "Vika",
-// };
-// console.log("Інформація про автомобіль", car);
-
-// car.newDriver = "Maria";
-
-// const key = prompt("Яке ім'я водія ?");
-// const value = car[key];
-// if (value) {
-//   console.log(value);
-// } else {
-//   console.log("Водія не знайдено");
-// }
-// const distance = Number(prompt("Яка відстань"));
-
-// let time = distance / car.averageSpeed;
-// let breaks = Math.ceil(time / 4);
-// let travelTime = time + breaks;
-
-// let consumption = (distance / 100) * car.fuelConsumption;
-
-// console.log(`Час подорожі: ${travelTime} `);
-// console.log(`Кількість палива: ${consumption} л.`);
-
-// //* Функції ( мінімум )
-
-// вправа 2
-
-// function allArguments() {
-//   console.log(arguments.length);
-// }
-// allArguments();
-// export default allArguments;
-
-
-
-// вправа 3
-
-// const numberCompare = (a, b) => {
-
-//   if (a > b) {
-//     console.log('-1');
-//   } else if (a < b) {
-//     console.log('+1');
-//   } else {
-//     console.log('0');
-//   }
-// };
-
-// numberCompare(7, 6);
-
-// вправа 4
-
-// function calcFactorial(userNumber) {
-//   if (isNaN(userNumber)) {
-//     throw new Error('Wrong data');
-//   } else if (userNumber !== 1) {
-//     return userNumber * calcFactorial(userNumber - 1);
-//   } else {
-//     return 1;
-//   }
+// let count = 0;
+// do {
+//   console.log(count);
+//   count++
+// }while (count < 10) {
 // }
 
-// console.log(calcFactorial(5));
 
-// // вправа 5
+// For
 
-// function oneNumber() {
-//   const firstNumber = Number(prompt('Введіть перше число'));
-//   const secondNumber = Number(prompt('Введіть друге число'));
-//   const thirdNumber = Number(prompt('Введіть третє число'));
-//   if (isNaN(firstNumber) || isNaN(secondNumber) || isNaN(thirdNumber)) {
-//     console.log('Будь ласка, введіть числа.');
-//     return;
-//   }
-//   const oneNumber = Number(`${firstNumber}${secondNumber}${thirdNumber}`);
-//   console.log(oneNumber);
+// for (let i=0 ; i < 4; i++){
+//   alert(i)
 // }
 
-// oneNumber();
-
-
-// // вправа 1 ( норма )
-// function PerfectNumberCheck(number) {
-//   let sumDivisors = 0;
-
-//   for (let i = 1; i < number; i++) {
-//     if (number % i === 0) {
-//       sumDivisors += i;
-//     }
-//   }
-
-//   return number === sumDivisors;
+// .elemet-first {
+//   background-color: rgb(252, 5, 5);
+//   border-radius: 50%;
+//   min-height: 50px;
+//   width: 100%;
+//   max-width: 50px;
+// }
+// .elemet-second {
+//   background-color: rgb(229, 255, 0);
+//   border-radius: 50%;
+//   min-height: 50px;
+//   width: 100%;
+//   max-width: 50px;
 // }
 
-// console.log(PerfectNumberCheck(28));
+// .elemet-thirt {
+//   background-color: rgb(6, 172, 0);
+//   border-radius: 50%;
+//   min-height: 50px;
+//   width: 100%;
+//   max-width: 50px;
+// }
 
-// export default checkPerfectNumber;
+// /* bottom */
+
+// .button {
+//   background-color: white;
+//   padding-right: 25px;
+//   border-radius: 4px;
+//   padding-left: 25px;
+//   font-weight: 800;
+//   cursor: pointer;
+//   height: 45px;
+//   font-size: 24px;
+// }
+
+// .ligt-box-item {
+//   padding-top: 20px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 10px;
+// }
+
+// .light-box {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   max-width: 60px;
+//   width: 100%;
+//   min-height: 200px;
+//   background-color: #000;
+//   gap: 10px;
+// }
 
